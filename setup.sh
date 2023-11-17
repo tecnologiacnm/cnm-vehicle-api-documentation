@@ -7,7 +7,7 @@ mkdir -p "docs/03-cliente"
 mkdir -p "docs/04-publicacao"
 mkdir -p "docs/05-previsao-execucao"
 mkdir -p "docs/06-fluxograma"
-
+#
 # Criar arquivos dentro dos diretórios
 touch "docs/01-consideracoes-iniciais/test-environment.md"
 touch "docs/01-consideracoes-iniciais/production-environment.md"
