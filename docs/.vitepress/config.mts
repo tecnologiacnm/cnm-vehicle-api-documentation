@@ -4,7 +4,7 @@ import { defineConfig } from "vitepress";
 
 export default defineConfig({
   title: "Teste",
-  base: "/",
+  base: "/cnm-vehicle-api-documentation/",
   description: "A VitePress Site",
   themeConfig: {
     logo: "https://cdn.chavesnamao.com.br/common/logos/logo-admin-login-2023.png",
