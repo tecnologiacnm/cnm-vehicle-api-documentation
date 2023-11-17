@@ -3,9 +3,9 @@
 import { defineConfig } from "vitepress";
 
 export default defineConfig({
-  title: "Teste",
+  title: "API Veículos - Chaves na mão",
   base: "/cnm-vehicle-api-documentation/",
-  description: "A VitePress Site",
+  description: "Api REST de veículos",
   themeConfig: {
     logo: "https://cdn.chavesnamao.com.br/common/logos/logo-admin-login-2023.png",
     nav: [{ text: "Home", link: "/" }],
