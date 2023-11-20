@@ -27,9 +27,11 @@ nesse caso, podemos interpretar que essa mensagem foi adicionada 16/11/2023 às 
 | timestamp | number | Horário de adição da ação na fila em UTC-3, importante, se houver mais de uma ação, ela será executada por ordem de entrada. |
 | endpoint | string | Endpoint associado à mensagem. |
 
-### messageType ENUM 
-- UPDATE_VEHICLE - indica alteração de um veículo.
-- DELETE_VEHICLE - indica exclusão de um veículo.
-- UNPUBLISH_VEHICLE - indica desativação de um anúncio.
-- UPDATE_VEHICLE_PUBLICATION - indica inclusão de um destaque em um anuncio ativo.
-- PUBLISH_VEHICLE - ativa um anúncio.
+# messageType ENUM 
+| messageType                 | Descrição                                           |
+|-----------------------------|-----------------------------------------------------|
+| `UPDATE_VEHICLE`            | Indica alteração de um veículo.                     |
+| `DELETE_VEHICLE`            | Indica exclusão de um veículo.                      |
+| `UNPUBLISH_VEHICLE`         | Indica desativação de um anúncio.                   |
+| `UPDATE_VEHICLE_PUBLICATION`| Indica inclusão de um destaque em um anúncio ativo. |
+| `PUBLISH_VEHICLE`           | Ativa um anúncio.                                   |
