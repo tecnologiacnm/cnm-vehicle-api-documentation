@@ -7,9 +7,9 @@ Alguns exemplos de status de retorno que utilizamos:
 
 Indica que a operação ocorreu com sucesso.
 
-`202`
+`202` (NEW)
 
-Indica que a requisoção foi aceita mas o processo ainda não foi executado e sim enviado para uma FILA.
+Indica que a requisição foi aceita mas o processo ainda não foi executado e sim enviado para uma FILA.
 
 `400`
 
@@ -19,7 +19,7 @@ Não conseguimos processar os dados enviados no request, por conta da validaçã
 
 Verifique o seu token JWT, se ele está sendo enviado no header conforme descrito anteriormente. Verifique também se o seu token não esta expirado, se estiver, outro token pode ser solicitado no endpoint `/clients/jwt`.
 
-`404`
+`404` (NEW)
 
 Conteúdo não encontrado
 

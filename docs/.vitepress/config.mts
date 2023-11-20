@@ -35,7 +35,7 @@ export default defineConfig({
             link: "/01-consideracoes-iniciais/limit-requests.md",
           },
           {
-            text: "Status de respostas das requisições",
+            text: "Status de respostas das requisições (UPDATED)",
             link: "/01-consideracoes-iniciais/status-request.md",
           },
           {
@@ -101,7 +101,7 @@ export default defineConfig({
         ],
       },
       {
-        text: "Previsão de execução da requisição",
+        text: "Previsão de execução da requisição (NEW)",
         collapsed: true,
         items: [
           {
