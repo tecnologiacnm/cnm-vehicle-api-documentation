@@ -29,7 +29,7 @@ Não conseguimos processar os dados enviados no request, por conta de um erro l�
 
 `429`
 
-O cliente excedeu o limite máximo de requisições, e deve aguargar 10 segundos para enviar a proxíma.
+O cliente excedeu o limite máximo de requisições, e deve aguargar 10 segundos para enviar a proxíma. [Limite de requisições](limit-requests.md)
 
 `500`
 

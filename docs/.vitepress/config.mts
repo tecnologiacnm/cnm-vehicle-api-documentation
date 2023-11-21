@@ -47,6 +47,16 @@ export default defineConfig({
         ],
       },
       {
+        text: "Fluxo de execução da requisição (NEW)",
+        collapsed: true,
+        items: [
+          {
+            text: "Inicio",
+            link: "/05-previsao-execucao/index.md",
+          },
+        ],
+      },
+      {
         text: "Veículos",
         collapsed: true,
         items: [
@@ -99,16 +109,6 @@ export default defineConfig({
           {
             text: "Objeto de informações da publicação",
             link: "/04-publicacao/publication-information-object.md",
-          },
-        ],
-      },
-      {
-        text: "Previsão de execução da requisição (NEW)",
-        collapsed: true,
-        items: [
-          {
-            text: "Inicio",
-            link: "/05-previsao-execucao/index.md",
           },
         ],
       },

@@ -8,7 +8,7 @@
     - [Limite de requisições](01-consideracoes-iniciais/limit-requests.md)
     - [Status de respostas das requisições](01-consideracoes-iniciais/status-request.md)
     - [Paginação e busca](01-consideracoes-iniciais/pagination-and-search.md)
-
+- [Fluxo de execução da requisição - HEADER `x-status-queue`](05-previsao-execucao/index.md)
 - [Veículos](02-veiculos/index.md)
     - [Endpoints](02-veiculos/vehicle-endpoints.md)
     - [Endpoints paginados](02-veiculos/vehicle-endpoints-paginated)    
@@ -22,8 +22,6 @@
 - [Publicação](04-publicacao/index.md)
     - [Endpoints](04-publicacao/publication-endpoints.md)
     - [Objeto de informações da publicação](04-publicacao/publication-information-object.md)
-
-- [Previsão de execução de requisição - HEADER `x-status-queue`](05-previsao-execucao/index.md)
     
 
 ## Fluxograma de comportamento esperado
