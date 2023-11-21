@@ -6,7 +6,9 @@ export default defineConfig({
   base: "/cnm-vehicle-api-documentation/",
   description: "Api REST de veículos",
   themeConfig: {
+    siteTitle: "",
     logo: "https://cdn.chavesnamao.com.br/common/logos/logo-admin-login-2023.png",
+
     nav: [{ text: "Home", link: "/" }],
     sidebar: [
       {
