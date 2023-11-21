@@ -1,4 +1,4 @@
-# Considerações Iniciais > Paginação e busca
+# Paginação e busca
 Alguns endpoints de consulta tem suporte à paginação e busca pelos campos da resposta.
 Esses endpoints retornam os dados na mesma estrutura que o exemplo:
 

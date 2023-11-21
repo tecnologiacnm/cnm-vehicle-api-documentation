@@ -1,4 +1,4 @@
-# Cliente > Endpoints
+# Endpoints
 | Método | Endpoint | Ação |
 | --- | --- | --- |
 | GET | /clients/jwt | Retorna um token JWT a partir de um token de cliente especificado no header da requisição. |

@@ -1,3 +1,5 @@
+# Endpoints
+
 | Método HTTP | Endpoint                          | Descrição |
 | ----------- | --------------------------------- | --------- |
 | POST        | /vehicles                         | Insere um novo veículo. Se houver espaço no plano do cliente, também é automaticamente publicado; caso contrário, o veículo é inserido como desativado. |

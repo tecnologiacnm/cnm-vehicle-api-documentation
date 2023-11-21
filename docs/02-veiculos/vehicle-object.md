@@ -1,4 +1,4 @@
-# Veículos > Objeto para criação e edição do veículo
+# Objeto para criação e edição do veículo
 **JSON**
 
 ```json

@@ -1,4 +1,4 @@
-# Considerações Iniciais > Status de respostas das requisições
+# Status de respostas das requisições
 Por padrão, seguimos os status codes da especificação HTTP. Você pode consultar [este link](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status) para entender os códigos retornados.
 
 Alguns exemplos de status de retorno que utilizamos:

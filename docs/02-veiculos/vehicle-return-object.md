@@ -1,4 +1,4 @@
-# Veículos > Objeto de retorno /vehicles/:reference
+# Objeto de retorno /vehicles/:reference
 **JSON**
 
 ```json

@@ -1,4 +1,4 @@
-# Publicação > Objeto de informações da publicação
+# Objeto de informações da publicação
 
 ```json
 {

@@ -1,4 +1,4 @@
-# Cliente > Objeto de informações do plano
+# Objeto de informações do plano
 **JSON**
 
 ```json

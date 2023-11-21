@@ -1,4 +1,4 @@
-# Considerações Iniciais > Limite de requisições
+# Limite de requisições
 Todos os clientes possuem um limite de requisições simultâneas que podem ser enviadas para a api.
 
 O limite é dado pelo número de requests a cada 10 segundos. Ou seja, você poderá enviar x requisições para a api em uma janela de 10 segundos.

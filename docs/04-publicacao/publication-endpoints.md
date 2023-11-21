@@ -1,4 +1,4 @@
-# Publicação > Endpoints
+# Endpoints
 
 | Método | Endpoint                       | Ação |
 | ------ | ------------------------------ | ---- |

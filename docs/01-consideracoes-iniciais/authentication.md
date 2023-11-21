@@ -1,4 +1,4 @@
-# Considerações Iniciais > Autenticação
+# Autenticação
 Para utilizar a nossa API REST é necessário ter em mãos o token de integração, este se encontra dentro da sua conta chaves na mão em ***Meus dados > Token de integração*** (parte de baixo da página).
 
 Se possuir alguma dificuldade, favor encaminhar um email para [atendimento@chavesnamao.com.br](mailto:atendimento@chavesnamao.com.br), com as informações do cliente ao qual está solicitando o
