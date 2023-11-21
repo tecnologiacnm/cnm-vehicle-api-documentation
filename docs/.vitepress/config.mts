@@ -62,7 +62,7 @@ export default defineConfig({
             link: "/02-veiculos/vehicle-object.md",
           },
           {
-            text: "Objeto de retorno /vehicles/{reference}",
+            text: "Objeto de retorno /vehicles/:reference",
             link: "/02-veiculos/vehicle-return-object.md",
           },
         ],

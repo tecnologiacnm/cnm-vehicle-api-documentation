@@ -13,7 +13,7 @@
     - [Endpoints](02-veiculos/vehicle-endpoints.md)
     - [Endpoints paginados](02-veiculos/vehicle-endpoints-paginated)    
     - [Objeto para criação e edição do veículo](02-veiculos/vehicle-object.md)
-    - [Objeto de retorno /vehicles/{reference}](02-veiculos/vehicle-return-object.md)
+    - [Objeto de retorno /vehicles/:reference](02-veiculos/vehicle-return-object.md)
 
 - [Cliente](03-cliente/index.md)
     - [Endpoints](03-cliente/client-endpoints.md)

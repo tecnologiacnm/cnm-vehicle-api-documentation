@@ -1,4 +1,4 @@
-# Veículos > Objeto de retorno /vehicles/{reference}
+# Veículos > Objeto de retorno /vehicles/:reference
 **JSON**
 
 ```json
@@ -59,7 +59,7 @@
 | brandNew | boolean | Indica que o veículo foi registrado como novo. Ou seja, o campo mileage é igual a 0. |
 | pictures | object[] | Fotos salvas do veículo. Consulte a descrição detalhada abaixo. |
 | updatedAt | string | Data da última atualização do veículo pelo integrador, ou pelo nosso sistema. |
-| publication | object (anulável) | Objeto que representa o status da publicação do veículo. Se o campo retornar null, isso significa que o veículo NÃO está sendo exibido no portal. Isso pode ocorrer se o plano contratado excedeu os limites, ou se a publicação foi desativada pelo endpoint DELETE /publications/{reference}. |
+| publication | object (anulável) | Objeto que representa o status da publicação do veículo. Se o campo retornar null, isso significa que o veículo NÃO está sendo exibido no portal. Isso pode ocorrer se o plano contratado excedeu os limites, ou se a publicação foi desativada pelo endpoint DELETE /publications/:reference |
 
 ### `pictures` Object:
 
