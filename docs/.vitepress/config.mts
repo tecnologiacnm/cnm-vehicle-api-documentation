@@ -5,6 +5,15 @@ import { defineConfig } from "vitepress";
 export default defineConfig({
   base: "/cnm-vehicle-api-documentation/",
   description: "Api REST de veículos",
+  head: [
+    [
+      "link",
+      {
+        rel: "icon",
+        href: "https://cdn.chavesnamao.com.br/common/logos/favicon.ico",
+      },
+    ],
+  ],
   themeConfig: {
     siteTitle: "",
     logo: {
