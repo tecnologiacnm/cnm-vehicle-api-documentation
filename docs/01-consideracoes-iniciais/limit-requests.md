@@ -20,8 +20,7 @@ Para controlar o limite de requisições, toda resposta retornará os headers ab
 - nesses exemplos vamos utilizar o header `retry-after` que é retornado quando atingimos os limites
 
 ## Node
-```
-javascript
+```javascript
 
 const axios = require('axios');
 
@@ -52,8 +51,7 @@ try {
 ```
 
 ## PHP
-```
-php
+```php
 <?php
 
 $url = 'https://api.chavesnamao.com.br/integration/v2/vehicles';
@@ -86,8 +84,7 @@ if (strpos($http_response_header[0], '429') !== false) {
 ```
 
 ## Python
-```
-python
+```python
 
 import requests
 import time
