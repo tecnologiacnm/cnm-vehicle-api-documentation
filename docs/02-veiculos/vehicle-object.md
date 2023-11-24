@@ -61,10 +61,10 @@
 
 **type** - Tipo do veículo.
 
-| Campo | Tipo | Obrigatório | Descrição                      |
-|-------|------|-------------|--------------------------------|
-| C     | string | Sim         | Para carros e buggys         |
-| M     | string | Sim            | Para Motocicletas |
+| Valor | Descrição |
+|-------|------|
+| C     | Para carros e buggys |
+| M     | Para Motocicletas |
 
 **color** - Cor do veículo.
 
