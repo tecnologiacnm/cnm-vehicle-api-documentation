@@ -57,3 +57,60 @@
 | pictures | object[] | Sim | Array de objetos com cada objeto especificando a URL de origem da foto. Mínimo de itens: 1, Máximo de itens: 16. Consulte a descrição para mais detalhes. |
 | accessories | number[] | Sim | Array de IDs de acessórios aos quais o veículo contém. Consulte o endpoint /vehicles/accessories para verificar IDs dos acessórios disponíveis. |
 | trimId | number | Sim | ID da versão do veículo. Consulte os endpoints descritos para localizar o ID da versão do veículo. |
+
+
+**type** - Tipo do veículo.
+
+| Campo | Tipo | Obrigatório | Descrição                      |
+|-------|------|-------------|--------------------------------|
+| C     | string | Sim         | Para carros e buggys         |
+| M     | string | Sim            | Para Motocicletas |
+
+**color** - Cor do veículo.
+
+| Valor | Descrição        |
+|-------|------------------|
+| BLACK | Preto            |
+| RED   | Vermelho         |
+| SILVER | Prata           |
+| GREEN | Verde            |
+| YELLOW | Amarelo         |
+| BLUE  | Azul             |
+| METALLIC_WHITE | Branco metálico |
+| GREY  | Cinza            |
+| LEAD  | Chumbo           |
+| BEIGE | Bege             |
+| ORANGE | Laranja         |
+| BURGUNDY | Bordo         |
+| BROWN | Marrom           |
+| GOLDEN | Dourado         |
+| PURPLE | Roxo            |
+| PINK  | Rosa             |
+| MULTICOLORED | Várias Cores |
+| OTHER | Outra Cor         |
+| WINE  | Vinho            |
+| PEARL_WHITE | Branco pérola|
+| CHAMPAGNE | Cor Champagne |
+| BRONZE | Cor Bronze       |
+
+**gearbox** - Tipo do câmbio do veículo.
+
+| Valor     | Descrição                     |
+|-----------|-------------------------------|
+| AUTOMATIC | Qualquer câmbio automático    |
+| MANUAL    | Qualquer câmbio manual        |
+
+**fuel** - Tipo do combustível do veículo.
+
+| Valor         | Descrição                       |
+|---------------|---------------------------------|
+| ETHANOL       | Estritamente Álcool             |
+| GASOLINE      | Estritamente Gasolina           |
+| DIESEL        | Estritamente Diesel             |
+| FLEX          | Álcool e Gasolina               |
+| GNV+ETHANOL   | GNV e Álcool                    |
+| GNV+GASOLINE  | GNV e Gasolina                  |
+| GNV+FLEX      | GNV, Álcool e Gasolina          |
+| HYBRID        | Motor de combustão e elétrico    |
+| ELETRIC       | Estritamente elétrico           |
+| GNV           | Estritamente GNV                |
