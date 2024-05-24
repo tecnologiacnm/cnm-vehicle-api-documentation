@@ -48,7 +48,17 @@
     ],
     "publication": {
         "highlighted": true
-    }
+    },
+    "otherInfos": [
+        {
+            "id": 7,
+            "name": "Único dono"
+        },
+        {
+            "id": 10,
+            "name": "Chave reserva"
+        }
+    ]
 }
 ```
 

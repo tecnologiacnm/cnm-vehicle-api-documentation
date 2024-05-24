@@ -29,7 +29,11 @@
         }
     ],
     "description": "string",
-    "title": "string"
+    "title": "string",
+    "otherInfos": [
+        7,
+        10
+    ]
 }
 ```
 
@@ -54,9 +58,11 @@
 | document | string | Opcional | Número do documento do veículo. Tamanho máximo: 20 caracteres. |
 | description | string | Opcional | Descrição do anúncio. Tamanho máximo: 4000 caracteres. Tamanho máximo recomendável: 850 caracteres. |
 | title | string | Opcional | Título do anúncio. Tamanho máximo: 100 caracteres. |
-| pictures | object[] | Sim | Array de objetos com cada objeto especificando a URL de origem da foto. Mínimo de itens: 1, Máximo de itens: 16. Consulte a descrição para mais detalhes. |
-| accessories | number[] | Sim | Array de IDs de acessórios aos quais o veículo contém. Consulte o endpoint /vehicles/accessories para verificar IDs dos acessórios disponíveis. |
+| pictures | object[] | Opcional | Array de objetos com cada objeto especificando a URL de origem da foto. Mínimo de itens: 1, Máximo de itens: 16. Consulte a descrição para mais detalhes. |
+| accessories | number[] | Opcional | Array de IDs de acessórios aos quais o veículo contém. Consulte o endpoint /vehicles/accessories para verificar IDs dos acessórios disponíveis. |
 | trimId | number | Sim | ID da versão do veículo. Consulte os endpoints descritos para localizar o ID da versão do veículo. |
+| otherInfos | number[] | Opcional | Array de IDs de 'outras informações' conhecido também como  'Opções do vendedor'. Consulte o endpoint /vehicles/otherinfo para verificar IDs disponíveis. |
+
 
 
 **type** - Tipo do veículo.
