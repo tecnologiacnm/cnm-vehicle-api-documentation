@@ -8,6 +8,7 @@
 | PUT         | /vehicles/:reference             | Atualiza todos os dados de um veículo a partir de uma referência. |
 | DELETE      | /vehicles/:reference             | Deleta um veículo e desanuncia o mesmo a partir de uma referência. |
 | GET         | /vehicles/accessories             | Retorna todos os acessórios para um tipo de veículo, com seus respectivos ids e nomes. |
+| GET         | /vehicles/otherinfo             | Retorna todas as 'opções do vendedor', com seus respectivos ids e nomes. |
 | GET         | /vehicles/brands                  | Retorna todas as marcas de veículos atualmente disponíveis no portal por tipo de veículo. |
 | GET         | /vehicles/brands/:brandId/models | Retorna todos os modelos específicos de uma marca. |
 | GET         | /vehicles/models/:modelId/trims  | Retorna todas as versões específicas de um modelo. |
