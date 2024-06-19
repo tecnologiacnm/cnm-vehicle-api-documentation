@@ -21,7 +21,17 @@ export default defineConfig({
         "https://cdn.chavesnamao.com.br/common/logos/logo-admin-login-2023.png",
       dark: "https://cdn.chavesnamao.com.br/common/logos/logo-cnm-w.png",
     },
-    nav: [{ text: "Home", link: "/" }],
+    nav: [
+      { 
+        text: "Atualizações", 
+        items: [ 
+          {
+            text: 'v0.0.1', 
+            link: "/versoes/v0.0.1.md"
+          },
+        ] 
+      }
+    ],
     sidebar: [
       {
         text: "Considerações Iniciais",
