@@ -1,9 +1,7 @@
 # Limite de requisições
 Todos os clientes possuem um limite de requisições simultâneas que podem ser enviadas para a api.
 
-O limite é dado pelo número de requests a cada 10 segundos. Ou seja, você poderá enviar 50 requisições  para a api em uma janela de 10 segundos.
-
-<b>*O limite de requisições padrão é 50 mas pode mudar conforme o cliente, valide o limite através do header `x-ratelimit-limit`*</b>
+<b>*O limite de requisições deve ser validado através do header `x-ratelimit-limit`*</b>
 Caso algum destes limite seja excedido você receberá uma resposta com um código HTTP 429 `(Too Many Requests).`
 
 Para controlar o limite de requisições, toda resposta retornará os headers abaixo. Você poderá utilizá-los para medir o tempo de espera das próximas requisições.
