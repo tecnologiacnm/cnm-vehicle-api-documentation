@@ -2,7 +2,7 @@
 
 | Método HTTP | Endpoint                          | Descrição |
 | ----------- | --------------------------------- | --------- |
-| POST        | /vehicles                         | Insere um novo veículo. Se houver espaço no plano do cliente, também é automaticamente publicado; caso contrário, o veículo é inserido como desativado. |
+| POST        | /vehicles                         | Insere um novo veículo. Se houver espaço no plano do cliente, também é automaticamente publicado; Na rota `GET /vehicles` você pode visualizar os campos `active` e `publication` para saber se está ativo. |
 | GET         | /vehicles                         | Retorna todos os veículos paginados do cliente. |
 | GET         | /vehicles/:reference             | Retorna um veículo específico a partir de uma referência. Se um veículo não existe, será retornado 404.Se o anúncio existir e tiver algo para ser processado, será 200 e irá ter informação no header. Se o veículo não existe e está na fila, será retornado 202. Preste atenção ao tópico ‘Previsão de execução de requisição - HEADER x-status-queue’. |
 | PUT         | /vehicles/:reference             | Atualiza todos os dados de um veículo a partir de uma referência. |
