@@ -33,7 +33,8 @@
     "otherInfos": [
         7,
         10
-    ]
+    ],
+    "videoUrl": "string",
 }
 ```
 
@@ -62,6 +63,7 @@
 | accessories | number[] | Sim | Array de IDs de acessórios aos quais o veículo contém. Consulte o endpoint /vehicles/accessories para verificar IDs dos acessórios disponíveis. |
 | trimId | number | Sim | ID da versão do veículo. Consulte os endpoints descritos para localizar o ID da versão do veículo. |
 | otherInfos | number[] | Opcional | Array de IDs de 'outras informações' conhecido também como  'Opções do vendedor'. Consulte o endpoint /vehicles/otherinfo para verificar IDs disponíveis. |
+| videoUrl | string | Opcional | Link do vídeo do Youtube ou Vimeo. Deve ser colocado o link para acessar o vídeo normalmente pelo navegador. Não pode ser utilizado embed. Não aceitamos Shorts do YouTube nem valores nulos! |
 
 **type** - Tipo do veículo.
 

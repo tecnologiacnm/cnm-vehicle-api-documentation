@@ -24,11 +24,15 @@ export default defineConfig({
     nav: [
       { 
         text: "Atualizações", 
-        items: [ 
+        items: [
+          {
+            text: 'v0.0.2', 
+            link: "/versoes/v0.0.2.md"
+          }, 
           {
             text: 'v0.0.1', 
             link: "/versoes/v0.0.1.md"
-          },
+          }
         ] 
       }
     ],
